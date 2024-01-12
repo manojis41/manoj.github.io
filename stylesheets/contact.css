@@ -1,0 +1,90 @@
+nav ul li a {
+    font-weight: normal;
+}
+
+.contact a {
+    font-weight: bold;
+}
+
+.intro {
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+
+}
+.intro p{
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+}
+.intro img {
+    width: 100%;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.social-card {
+    padding: 8px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0d6efd;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+.social-card:hover {
+    cursor: pointer;
+    background: #0d6efd;
+    color: white;
+}
+
+.social-card i {
+    font-size: 50px;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.social-card h6 {
+    font-weight: bold;
+    margin: 0px;
+}
+
+.social-handles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.social-handles img {
+    flex-grow: 1;
+}
+
+.cta {
+    padding: 8px 24px;
+    margin: 0px auto;
+    width: 75%;
+}
+
+@media screen and (max-width:762px) {
+    .intro p {
+        text-align: left;
+    }
+
+    .social-container {
+        width: 100%;
+        margin: 0 8px;
+    }
+
+    .social-handles img {
+        width: 100%;
+    }
+
+    .cta {
+        width: 100%;
+    }
+}

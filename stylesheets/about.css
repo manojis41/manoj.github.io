@@ -1,0 +1,129 @@
+nav ul li a {
+    font-weight: normal;
+}
+
+.about a {
+    font-weight: bold;
+}
+
+.card-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e4ebfb;
+    padding: 12px;
+    width: 480px;
+    border: 2px solid #263238;
+    border-radius: 25px;
+}
+
+.info-card h3 {
+    font-size: 1.2rem;
+}
+
+.profile {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.hole {
+    width: 138px;
+    height: 32px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #263238;
+}
+
+.ribbon {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 0px auto;
+    background: #407bff;
+    border: 2px solid #407bff;
+    border-radius: 0px 0px 25px 25px;
+    width: 120px;
+    height: 200px;
+    margin-bottom: -25px;
+    border: 2px solid #263238;
+    border-top: none;
+
+}
+
+p {
+    padding: 12px;
+}
+
+.cta {
+    padding: 8px 24px;
+    margin: 0px auto;
+}
+#book-img{
+    width:100%;
+}
+@media screen and (max-width:762px) {
+    .info-card {
+        width: 390px;
+        box-shadow: 15px 5px 25px grey;
+    }
+
+    .ribbon {
+        width: 100px;
+        height: 140px;
+        box-shadow: 15px 5px 25px grey;
+    }
+
+    .hole {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width:762px) {
+    .info-card {
+        width: 600px;
+        padding: 24px;
+        padding-top: 8px;
+    }
+
+    .info-card h1 {
+        font-size: 3rem
+    }
+
+    .info-card p {
+        font-size: 18px;
+    }
+
+    .ribbon {
+        width: 180px;
+    }
+
+    .hole {
+        width: 200px;
+        height: 40px;
+    }
+
+    .about-content {
+        background: url('backgrounds/shared-workspace.svg') center;
+        background-size: cover;
+    }
+
+    #book-img {
+        width: 75%;
+        display: block;
+        margin: 0px auto;
+        margin-top: -48px;
+    }
+    .cta{
+        width:75%;
+    }
+}

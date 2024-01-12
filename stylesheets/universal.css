@@ -1,0 +1,180 @@
+h1 {
+    font-family: Comfortaa;
+    font-weight: bold;
+}
+
+nav.default-nav {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #407bff;
+    position: relative;
+}
+
+.default-nav a img {
+    position: absolute;
+    left: 0;
+    margin-bottom: 12px;
+
+}
+
+.default-nav ul {
+    border-bottom: 2px solid #407bff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.default-nav ul {
+    display: flex;
+    padding-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 4px 25px;
+    padding: 5px;
+}
+
+.default-nav ul li a:hover {
+    border-bottom: 4px solid #407bff;
+}
+
+nav ul li a:active {
+    font-weight: bold;
+}
+
+.default-nav ul li {
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    background: #c6d8ff;
+}
+
+nav.mobile-nav {
+    border-bottom: 2px solid #407bff;
+}
+
+.img-link {
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 50px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+}
+
+footer a {
+    color: #ededed;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: small;
+
+}
+
+
+/* buttons */
+
+.cta {
+    display: flex;
+    justify-content: left;
+}
+
+.cta .button {
+    cursor: pointer;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 50%;
+    border-radius: 6px;
+
+}
+
+.btn1 {
+    --c1: #407bff;
+    background: var(--c1);
+    color: white;
+    border: none;
+}
+
+.btn2 {
+    border: 1.5px solid #263238;
+    background: none;
+    color: var(--c1);
+    margin-left: 12px;
+}
+
+.btn1:hover {
+    color: white;
+    background: #2d56b2;
+}
+
+.btn1:active {
+    color: white;
+    background: var(--c1);
+}
+
+.btn2:hover {
+    border: 1.5px solid #c6d8ff;
+    background: #c6d8ff;
+}
+
+.btn2:active {
+    background: none;
+    border: 1.5px solid #263238;
+}
+
+
+@media screen and (max-width:762px) {
+    .default-nav {
+        display: none;
+        visibility: hidden;
+        position: absolute !important;
+    }
+}
+
+@media screen and (min-width:762px) {
+    .mobile-nav {
+        visibility: hidden;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .mobile-nav {
+        visibility: hidden;
+    }
+
+    nav ul li a {
+        font-size: 1.3rem;
+    }
+
+    .img-link {
+        top: -6px;
+    }
+
+    .cta .button {
+        font-size: 20px;
+        height: 50px;
+    }
+
+}
