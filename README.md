@@ -2,4 +2,4 @@
 <br>
 <br>
 This is a website static made as a 👨🏽‍💻 Homework project to show my understanding/learning of </> HTML, CSS and javaScript </> javaScript is used here for things like front-end form validation. This webiste is hosted as a real website.
-<br>Visit the website at: <a href= "https://manoj41.com.np/">Manojis41</a>❤️
+<br>Visit the website at: <a href= "https://manoj41.com.np/" target="_blank">Manojis41</a>❤️
